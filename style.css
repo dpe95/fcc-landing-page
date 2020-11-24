@@ -6,6 +6,12 @@ body {
   text-align: center;
 }
 
+#video {
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+}
+
 #nav-bar {
   position: fixed;
   top: 0px;
@@ -22,8 +28,8 @@ body {
 
 #header-img {
   position: relative;
-  top: 20px;
-  padding: 2%;
+  padding: 6%;
+  height: 160px;
 }
 @media screen and (min-width: 600px) {
   body {
