@@ -1,8 +1,9 @@
 body {
   display: block;
   right: 0;
-  background-color: aqua;
+  background-color: rgb(228, 190, 190);
   height: 1500px;
+  text-align: center;
 }
 
 #nav-bar {
@@ -10,18 +11,32 @@ body {
   top: 0px;
   width: 100%;
   background-color: aliceblue;
+  height: 30px;
+}
+
+#nav-link {
+  font-size: large;
+  text-align: center;
+  position: relative;
 }
 
 #header-img {
   position: relative;
   top: 20px;
+  padding: 2%;
 }
 @media screen and (min-width: 600px) {
   body {
-    color: red;
+    color: black;
   }
 }
 
 #package-container {
   display: flex;
+  flex-direction: column;
+  font-size: large;
+}
+
+#baseball-things {
+  font-size: 30px;
 }
