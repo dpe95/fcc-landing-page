@@ -1,0 +1,27 @@
+body {
+  display: block;
+  right: 0;
+  background-color: aqua;
+  height: 1500px;
+}
+
+#nav-bar {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: aliceblue;
+}
+
+#header-img {
+  position: relative;
+  top: 20px;
+}
+@media screen and (min-width: 600px) {
+  body {
+    color: red;
+  }
+}
+
+#package-container {
+  display: flex;
+}
